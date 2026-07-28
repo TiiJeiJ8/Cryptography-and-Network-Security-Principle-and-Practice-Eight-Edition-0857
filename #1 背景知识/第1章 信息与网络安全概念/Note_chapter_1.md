@@ -286,7 +286,7 @@ MAC 的验证逻辑：接收方对消息执行同样计算；若算出的 MAC �
 
 教材指出，网络安全涵盖三类对象：网络通信路径的安全、网络设备的安全、连接到网络的设备的安全。
 
-![[../../../temp_achive/密码编码学与网络安全（第八版）/第1章 信息与网络安全概念/attachments/fig_1_5_network_security_elements.png|623]]
+![[attachments/fig_1_5_network_security_elements.png|623]]
 
 *图 1.5 网络安全的关键要素*
 
@@ -331,7 +331,7 @@ MAC 的验证逻辑：接收方对消息执行同样计算；若算出的 MAC �
 
 教材将信任与可信度称为计算机和网络安全的关键概念。它先介绍通用信任模型，再将这些概念应用到信息安全。
 
-![[../../../temp_achive/密码编码学与网络安全（第八版）/第1章 信息与网络安全概念/attachments/fig_1_6_trust_model.png]]
+![[attachments/fig_1_6_trust_model.png]]
 
 *图 1.6 信任模型*
 
