@@ -11,6 +11,7 @@ category: textbook
 source: "密码编码学与网络安全 原理与实践 第八版"
 source_pdf: "Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf"
 chapter: 20
+section: "20.1-20.6"
 pdf_pages: "436-454"
 book_pages: "418-436"
 document_type: textbook-source

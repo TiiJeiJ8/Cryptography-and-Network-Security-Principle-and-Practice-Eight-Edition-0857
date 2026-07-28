@@ -7,6 +7,7 @@ category: textbook
 source: "密码编码学与网络安全 原理与实践 第八版"
 source_pdf: "Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf"
 chapter: 9
+section: "9.1-9.3"
 pdf_pages: "200-218"
 book_pages: "182-200"
 document_type: textbook-source
