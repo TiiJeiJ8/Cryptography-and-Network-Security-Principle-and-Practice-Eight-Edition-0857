@@ -14,7 +14,7 @@ document_type: textbook-source
 status: complete
 review_status: pending
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-31
 ---
 
 # 第9章 公钥密码学与RSA
@@ -649,7 +649,7 @@ c. 根据上述公钥(e,n)计算相应的私钥 $(d, p, q)$。
 1. A选择两个大素数P和Q，它们与(P-1)和(Q-1)均互素。
 2. A公布其公钥 $N = PQ$。
 3. A计算 $P'$ 和 $Q'$，使得 $PP' \equiv 1 \pmod{Q-1}$ 且 $QQ' \equiv 1 \pmod{P-1}$。
-4. 作为对消息M的加密，B计算 $C = M^E \pmod{N}$。
+4. 作为对消息M的加密，B计算 $C = M^N \pmod{N}$。
 5. A求解 $M \equiv C^{P'} \pmod{Q}$ 和 $M \equiv C^{Q'} \pmod{P}$ 得出M。
 a. 说明这种方法的工作原理；
 b. 它与RSA有何不同？
@@ -673,12 +673,13 @@ d. 说明如何用习题9.1中的矩阵 $M_1, M_2$ 和 $M_3$ 描述这种方法�
 9.16 运用图9.8所示的快速求幂算法计算 $5^{596} \bmod 1234$，并给出计算步骤。
 
 9.17 下面是快速求幂算法的另一种实现，证明它与图9.8中的方法是等价的：
-1. $f \leftarrow 1;\ T \leftarrow a;\ E \leftarrow b$
-2. if E是奇数，then $f \leftarrow f \times T$
-3. $E \leftarrow \lfloor E/2 \rfloor$
-4. $T \leftarrow T \times T$
-5. if $E > 0$，then goto 2
-6. output f
+
+1. 令 $f\leftarrow1$、$T\leftarrow a$、$E\leftarrow b$。
+2. 若 $E$ 是奇数，则令 $f\leftarrow f\times T$。
+3. 令 $E\leftarrow\lfloor E/2\rfloor$。
+4. 令 $T\leftarrow T\times T$。
+5. 若 $E>0$，则返回步骤2。
+6. 输出 $f$。
 
 9.18 本题说明选择密文攻击的简单应用。Bob截获了一份发给Alice的密文C，该密文是用Alice的公钥e加密的。Bob想获得原始消息 $M = C^d \bmod n$。Bob选择一个小于n的随机数r，并计算
 
