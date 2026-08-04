@@ -647,8 +647,9 @@ $$
 $M_i^{-1}$ 为 $M_i$ 在模 $m_i$ 下的乘法逆元：
 
 $$
-c_i=M_i\times(M_i^{-1}\bmod m_i) \tag{2.16}
+1 \equiv M_i\times M_i^{-1}(\bmod m_i), c_i=M_i\times M_i^{-1} \tag{2.16}
 $$
+
 
 $$
 A=\left(\sum_{i=1}^k a_ic_i\right)\bmod M \tag{2.17}
