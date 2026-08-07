@@ -4,12 +4,13 @@ aliases:
   - 密码编码学与网络安全 第 7 章 Note
   - 第七章 分组密码的工作模式 学习目标笔记
 tags:
-  - course
   - cryptography
   - symmetric_cipher
   - block_cipher_modes
-  - textbook_source
-  - note
+  - cryptography
+  - symmetric_cipher
+  - block_cipher_modes
+type: note
 category: note
 source: 密码编码学与网络安全 原理与实践 第八版
 source_pdf: Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf

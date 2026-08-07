@@ -3,12 +3,8 @@ title: 第 2 章 数论基础 - 学习目标笔记
 aliases:
   - 密码编码学与网络安全 第 2 章 Note
   - 第二章 数论基础 学习目标笔记
-tags:
-  - course
-  - cryptography
-  - number_theory
-  - textbook_source
-  - note
+tags: [number_theory, modular_arithmetic, prime, euclidean_algorithm, fermat_theorem, euler_theorem]
+type: note
 category: note
 source: 密码编码学与网络安全 原理与实践 第八版
 source_pdf: Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf
@@ -21,6 +17,7 @@ basis: strictly_textbook_original
 created: 2026-07-30
 updated: 2026-07-30
 ---
+
 # 第 2 章 数论基础
 
 ## 0. 学习目标总览

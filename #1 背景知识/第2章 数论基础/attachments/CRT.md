@@ -3,14 +3,7 @@ title: 第 2 章 数论基础 - CRT 求解同余方程组
 aliases:
   - 密码编码学与网络安全 第 2 章 Note
   - 第二章 数论基础 CRT 求解同余方程组
-tags:
-  - course
-  - cryptography
-  - number_theory
-  - note
-  - "#prime_number"
-  - "#中国剩余定理"
-  - "#同余方程组"
+tags: [chinese_remainder_theorem, number_theory, modular_arithmetic, prime]
 category: note
 source: 密码编码学与网络安全 原理与实践 第八版
 source_pdf: Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf
@@ -19,6 +12,7 @@ document_type: note-note
 created: 2026-07-30
 updated: 2026-07-30
 ---
+
 # 一、CRT 两种学习视角
 
 ## 1）做题视角

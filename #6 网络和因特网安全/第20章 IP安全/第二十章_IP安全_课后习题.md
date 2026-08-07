@@ -2,15 +2,8 @@
 title: "第20章 IP安全 - 课后习题"
 aliases:
   - "密码编码学与网络安全 第20章 习题解答"
-tags:
-  - course
-  - cryptography
-  - network_security
-  - ipsec
-  - esp
-  - ikev2
-  - vpn
-  - exercises
+tags: [endpoint_security, firewall, intrusion_detection, malware, ddos]
+type: exercises
 category: textbook
 source: "密码编码学与网络安全 原理与实践 第八版"
 source_pdf: "Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf"
@@ -23,6 +16,7 @@ status: complete
 created: 2026-07-23
 updated: 2026-07-31
 ---
+
 
 # 第20章 IP安全 - 课后习题
 

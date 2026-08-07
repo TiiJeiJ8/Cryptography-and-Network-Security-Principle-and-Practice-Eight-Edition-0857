@@ -3,13 +3,8 @@ title: 第 5 章 有限域 - 学习目标笔记
 aliases:
   - 密码编码学与网络安全 第 5 章 Note
   - 第五章 有限域 学习目标笔记
-tags:
-  - course
-  - cryptography
-  - symmetric_cipher
-  - finite_field
-  - textbook_source
-  - note
+tags: [finite_field, galois_field, polynomial, modular_arithmetic, group_theory]
+type: note
 category: note
 source: 密码编码学与网络安全 原理与实践 第八版
 source_pdf: Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf
@@ -20,6 +15,7 @@ basis: strictly_textbook_original
 created: 2026-07-31
 updated: 2026-07-31
 ---
+
 # 第 5 章 有限域
 
 ## 0. 学习目标总览

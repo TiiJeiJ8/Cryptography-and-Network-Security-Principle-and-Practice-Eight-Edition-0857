@@ -2,7 +2,7 @@
 title: "第9章 公钥密码学与RSA - 教材原文"
 aliases:
   - "密码编码学与网络安全 第9章 教材原文"
-tags: [course, cryptography, network_security, textbook_source]
+tags: [public_key, rsa, asymmetric_encryption, prime, number_theory, key_exchange]
 category: textbook
 source: "密码编码学与网络安全 原理与实践 第八版"
 source_pdf: "Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf"
@@ -16,6 +16,7 @@ review_status: pending
 created: 2026-07-22
 updated: 2026-07-31
 ---
+
 
 # 第9章 公钥密码学与RSA
 

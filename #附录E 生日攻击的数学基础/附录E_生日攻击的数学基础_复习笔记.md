@@ -2,12 +2,7 @@
 title: "附录E 生日攻击的数学基础 - 复习笔记"
 aliases:
   - "密码编码学与网络安全 附录E 复习笔记"
-tags:
-  - course
-  - cryptography
-  - network_security
-  - birthday_attack
-  - review_notes
+tags: [birthday_attack]
 category: textbook
 source: "密码编码学与网络安全 原理与实践 第八版"
 source_pdf: "Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf"
@@ -22,6 +17,7 @@ review_status: pending
 created: 2026-07-24
 updated: 2026-07-24
 ---
+
 
 # 附录E 生日攻击的数学基础 - 复习笔记
 

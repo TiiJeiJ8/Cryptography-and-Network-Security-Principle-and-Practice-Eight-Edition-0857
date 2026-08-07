@@ -2,11 +2,8 @@
 title: "第9章 公钥密码学与RSA - 课后习题"
 aliases:
   - "密码编码学与网络安全 第9章 习题解答"
-tags:
-  - course
-  - cryptography
-  - network_security
-  - exercises
+tags: [public_key, rsa, asymmetric_encryption, prime, number_theory, key_exchange]
+type: exercises
 category: textbook
 source: "密码编码学与网络安全 原理与实践 第八版"
 source_pdf: "Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf"
@@ -19,6 +16,7 @@ status: complete
 created: 2026-07-23
 updated: 2026-07-31
 ---
+
 
 # 第9章 公钥密码学与RSA - 课后习题
 

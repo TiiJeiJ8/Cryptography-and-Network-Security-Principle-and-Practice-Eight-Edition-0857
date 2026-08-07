@@ -2,15 +2,8 @@
 title: "第20章 IP安全 - 复习笔记"
 aliases:
   - "密码编码学与网络安全 第20章 复习"
-tags:
-  - course
-  - cryptography
-  - network_security
-  - ipsec
-  - esp
-  - ikev2
-  - vpn
-  - review
+tags: [endpoint_security, firewall, intrusion_detection, malware, ddos]
+type: review
 category: textbook
 source: "密码编码学与网络安全 原理与实践 第八版"
 source_pdf: "Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf"
@@ -24,6 +17,7 @@ review_status: pending
 created: 2026-07-23
 updated: 2026-07-24
 ---
+
 
 # 第20章 IP安全 - 复习笔记
 

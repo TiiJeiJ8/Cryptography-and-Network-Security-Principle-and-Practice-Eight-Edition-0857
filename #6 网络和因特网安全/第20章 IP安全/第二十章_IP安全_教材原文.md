@@ -2,11 +2,7 @@
 title: "第20章 IP安全 - 教材原文"
 aliases:
   - "密码编码学与网络安全 第20章 教材原文"
-tags:
-  - course
-  - cryptography
-  - network_security
-  - textbook_source
+tags: [endpoint_security, firewall, intrusion_detection, malware, ddos]
 category: textbook
 source: "密码编码学与网络安全 原理与实践 第八版"
 source_pdf: "Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf"
@@ -20,6 +16,7 @@ review_status: pending
 created: 2026-07-23
 updated: 2026-07-23
 ---
+
 
 # 第20章 IP安全
 

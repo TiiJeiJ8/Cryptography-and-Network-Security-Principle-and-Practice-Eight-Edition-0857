@@ -3,13 +3,7 @@ title: 第 2 章 数论基础 - Miller-Rabin 两条核心性质笔记
 aliases:
   - 密码编码学与网络安全 第 2 章 Note
   - 第二章 数论基础 Miller-Rabin 两条核心性质笔记
-tags:
-  - course
-  - cryptography
-  - number_theory
-  - note
-  - "#miller_rabin"
-  - "#prime_number"
+tags: [miller_rabin, primality_test, number_theory, prime]
 category: note
 source: 密码编码学与网络安全 原理与实践 第八版
 source_pdf: Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf
@@ -18,6 +12,7 @@ document_type: note-note
 created: 2026-07-30
 updated: 2026-07-30
 ---
+
 # Miller-Rabin 算法两大核心性质
 
 ## 一、两大性质

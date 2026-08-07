@@ -3,13 +3,8 @@ title: 第 6 章 高级加密标准 - 学习目标笔记
 aliases:
   - 密码编码学与网络安全 第 6 章 Note
   - 第六章 高级加密标准 学习目标笔记
-tags:
-  - course
-  - cryptography
-  - symmetric_cipher
-  - aes
-  - textbook_source
-  - note
+tags: [aes, spn, block_cipher, finite_field, symmetric_encryption]
+type: note
 category: note
 source: 密码编码学与网络安全 原理与实践 第八版
 source_pdf: Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf
@@ -20,6 +15,7 @@ basis: strictly_textbook_original
 created: 2026-07-31
 updated: 2026-08-05
 ---
+
 # 第 6 章 高级加密标准
 
 ## 0. 学习目标总览

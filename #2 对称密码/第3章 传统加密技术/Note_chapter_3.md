@@ -3,12 +3,8 @@ title: 第 3 章 传统加密技术 - 学习目标笔记
 aliases:
   - 密码编码学与网络安全 第 3 章 Note
   - 第三章 传统加密技术 学习目标笔记
-tags:
-  - course
-  - cryptography
-  - symmetric_cipher
-  - textbook_source
-  - note
+tags: [symmetric_encryption, substitution_cipher, transposition_cipher, feistel, classical_cipher]
+type: note
 category: note
 source: 密码编码学与网络安全 原理与实践 第八版
 source_pdf: Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf
@@ -21,6 +17,7 @@ basis: strictly_textbook_original
 created: 2026-07-30
 updated: 2026-07-30
 ---
+
 # 第 3 章 传统加密技术
 
 ## 0. 学习目标总览

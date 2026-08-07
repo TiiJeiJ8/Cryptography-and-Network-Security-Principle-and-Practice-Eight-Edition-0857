@@ -3,19 +3,16 @@ title: "密码编码学与网络安全（第八版）"
 aliases:
   - "密码编码学与网络安全 第八版"
   - "Cryptography and Network Security 8th Edition"
-tags:
-  - course
-  - cryptography
-  - network_security
-  - textbook
+tags: [cryptography, network_security]
 category: textbook
 source: "密码编码学与网络安全 原理与实践 第八版"
 source_pdf: "Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf"
-type: course_index
+type: index
 status: active
 created: 2026-07-21
 updated: 2026-07-23
 ---
+
 
 # 密码编码学与网络安全：原理与实践（第八版）
 

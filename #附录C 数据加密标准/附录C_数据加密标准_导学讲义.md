@@ -2,12 +2,7 @@
 title: "附录C 数据加密标准 - 导学讲义"
 aliases:
   - "密码编码学与网络安全 附录C 导学讲义"
-tags:
-  - course
-  - cryptography
-  - network_security
-  - des
-  - study_guide
+tags: [des]
 category: textbook
 source: "密码编码学与网络安全 原理与实践 第八版"
 source_pdf: "Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf"
@@ -22,6 +17,7 @@ review_status: pending
 created: 2026-07-24
 updated: 2026-07-24
 ---
+
 
 # 附录C 数据加密标准 - 导学讲义
 

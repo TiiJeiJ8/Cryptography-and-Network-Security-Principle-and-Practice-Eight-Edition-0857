@@ -2,12 +2,7 @@
 title: "附录D 简化AES - 导学讲义"
 aliases:
   - "密码编码学与网络安全 附录D 导学讲义"
-tags:
-  - course
-  - cryptography
-  - network_security
-  - simplified_aes
-  - study_guide
+tags: [simplified_aes]
 category: textbook
 source: "密码编码学与网络安全 原理与实践 第八版"
 source_pdf: "Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf"
@@ -22,6 +17,7 @@ review_status: pending
 created: 2026-07-24
 updated: 2026-07-24
 ---
+
 
 # 附录D 简化AES - 导学讲义
 
