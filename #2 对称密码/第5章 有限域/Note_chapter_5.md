@@ -3,7 +3,7 @@ title: 第 5 章 有限域 - 学习目标笔记
 aliases:
   - 密码编码学与网络安全 第 5 章 Note
   - 第五章 有限域 学习目标笔记
-tags: [finite_field, galois_field, polynomial, modular_arithmetic, group_theory]
+tags: [textbook_chapter, finite_field, galois_field, polynomial, modular_arithmetic, group_theory]
 type: note
 category: note
 source: 密码编码学与网络安全 原理与实践 第八版

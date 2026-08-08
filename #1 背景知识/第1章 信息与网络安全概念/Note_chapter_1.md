@@ -3,7 +3,7 @@ title: 第 1 章 信息与网络安全概念 - 学习目标笔记
 aliases:
   - 密码编码学与网络安全 第 1 章 Note
   - 第一章 信息与网络安全概念 学习目标笔记
-tags: [security_model, cia_triad, security_service, security_attack, security_mechanism]
+tags: [textbook_chapter, security_model, cia_triad, security_service, security_attack, security_mechanism]
 type: note
 category: note
 source: 密码编码学与网络安全 原理与实践 第八版
