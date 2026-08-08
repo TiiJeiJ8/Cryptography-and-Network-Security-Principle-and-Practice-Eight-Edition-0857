@@ -301,9 +301,9 @@ IKE头部包括发起者/响应者SPI、下一个净荷、版本、交换类型�
 | 净荷 | 作用 |
 | --- | --- |
 | SA | 携带建议、协议、变换和属性 |
-| KE | DH组号和密钥交换数据 |
+| KE | DH组号和[密钥交换](<../../../../../Course Notes/密码学 (Cipher)/Key Management and the Public-Key Revolution/Key Management and the Public-Key Revolution.md>)数据 |
 | ID / CERT / CERTREQ / AUTH | 身份、证书、证书请求和认证 |
-| Nonce | 防重放并参与密钥派生 |
+| Nonce | 防重放并参与[[密钥派生]] |
 | Notify / Delete | 状态、错误和删除SA |
 | TS | 标识由IPsec保护的流量范围 |
 | Encrypted | 加密封装其他IKE净荷 |
@@ -320,8 +320,8 @@ IKE头部包括发起者/响应者SPI、下一个净荷、版本、交换类型�
 ## 与前后章节的联系
 
 - 第7章的工作模式和第12章的MAC/AEAD用于ESP变换。
-- 第10、14、15章的DH、证书和密钥管理是IKE认证与密钥确定基础。
-- 第17章TLS位于传输层之上，通常按连接/应用保护；IPsec位于网络层，对应用透明。
+- 第10、14、15章的DH、证书和[[Course Notes/密码学 (Cipher)/Key Management and the Public-Key Revolution/Key Management and the Public-Key Revolution|密钥管理]]是IKE认证与密钥确定基础。
+- 第17章[[Course Notes/Web隐私与安全（Security and Privacy of Web）/06-HTTPS与TLS/06-HTTPS与TLS|TLS]]位于传输层之上，通常按连接/应用保护；IPsec位于网络层，对应用透明。
 - 第21章端点安全强调主机自身防护，IPsec不能替代终端防恶意软件和访问控制。
 
 ## 学习建议

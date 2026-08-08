@@ -25,7 +25,7 @@ updated: 2026-07-24
 
 ### 学习目标
 
-1. 区分固定哈希目标匹配、单集合任意碰撞和双集合相交三类问题。
+1. 区分固定[[Course Notes/密码学 (Cipher)/Hash Functions and Applications (III)/Hash Functions and Applications (III)|哈希]]目标匹配、单集合任意碰撞和双集合相交三类问题。
 2. 用补事件计算“至少一次成功”的概率。
 3. 推导生日悖论的精确公式与平方根近似。
 4. 理解不等式 $(1-x)\le e^{-x}$ 在概率估计中的作用。

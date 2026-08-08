@@ -56,7 +56,7 @@ $$
 k\approx\frac n2
 $$
 
-$m$ 位哈希：
+$m$ 位[[Course Notes/密码学 (Cipher)/Hash Functions and Applications (III)/Hash Functions and Applications (III)|哈希]]：
 
 $$
 k=2^{m-1}

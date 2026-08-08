@@ -26,10 +26,10 @@ updated: 2026-07-31
 
 1. 分析多重加密方案的安全性。
 2. 了解中间相遇攻击。
-3. 比较 ECB、CBC、CFB、OFB 和其他工作模式。
-4. 简要介绍 XTS-AES 工作模式。
+3. 比较 ECB、[[Course Notes/密码学 (Cipher)/Private-Key Encryption (VI)/Private-Key Encryption (VI)|CBC]]、CFB、[[Course Notes/密码学 (Cipher)/Private-Key Encryption (VI)/Private-Key Encryption (VI)|OFB]] 和其他工作模式。
+4. 简要介绍 XTS-[[Course Notes/密码学 (Cipher)/Practical Constructions of Symmetric-Key Primitive/Practical Constructions of Symmetric-Key Primitives (I)|AES]] 工作模式。
 
-本章先说明如何在不替换已有 DES 软硬件的条件下，通过多重加密加强 DES；然后讨论将固定长度分组密码用于长消息和数据流的模式；最后介绍面向分组存储设备的 XTS-AES，以及能保留原始数据格式的 FPE。
+本章先说明如何在不替换已有 [[Course Notes/密码学 (Cipher)/Practical Constructions of Symmetric-Key Primitive/Practical Constructions of Symmetric-Key Primitives (I)|DES]] 软硬件的条件下，通过多重加密加强 DES；然后讨论将固定长度分组密码用于长消息和数据流的模式；最后介绍面向分组存储设备的 XTS-AES，以及能保留原始数据格式的 FPE。
 
 ```text
 分组密码的扩展使用
@@ -439,7 +439,7 @@ $$
 
 ### 5.4 NIST 的 FF1、FF2、FF3
 
-NIST SP 800-38G 规定三种 FPE 算法 FF1、FF2、FF3。三者均采用 Feistel 结构、以 AES 构造不同的 $F_K$，区别如下：
+NIST SP 800-38G 规定三种 FPE 算法 FF1、FF2、FF3。三者均采用 [[Course Notes/密码学 (Cipher)/Practical Constructions of Symmetric-Key Primitive/Practical Constructions of Symmetric-Key Primitives (I)|Feistel]] 结构、以 AES 构造不同的 $F_K$，区别如下：
 
 | 算法 | 轮数 | 轮函数构造与特点 |
 | --- | --- | --- |
@@ -447,7 +447,7 @@ NIST SP 800-38G 规定三种 FPE 算法 FF1、FF2、FF3。三者均采用 Feiste
 | FF2 | 10 | 用加密密钥和调整值生成子密钥，再用该子密钥加密；轮函数使用 ECB。 |
 | FF3 | 8 | 使用原加密密钥、ECB，轮数最少但调整值灵活性最低；调整值固定为 64 位。 |
 
-FF1 的 $\operatorname{PRF}_K(X)$ 将 128 位倍数长度输入 $X$ 以全零 IV 进行 CBC 加密，并返回最后一个密文块；本质上等价于 CBC-MAC 或 CMAC。FF1 将输入拆成 $A,B$，以调整值、轮号、基数和长度构造 $Q$，用 PRF 生成 $R$，扩展或截断为 $S$，再进行
+FF1 的 $\operatorname{[[Course Notes/密码学 (Cipher)/Private-Key Encryption(IV)/Private-Key Encryption(IV)|PRF]]}_K(X)$ 将 128 位倍数长度输入 $X$ 以全零 IV 进行 CBC 加密，并返回最后一个密文块；本质上等价于 CBC-MAC 或 CMAC。FF1 将输入拆成 $A,B$，以调整值、轮号、基数和长度构造 $Q$，用 PRF 生成 $R$，扩展或截断为 $S$，再进行
 
 $$
 c=(\operatorname{NUM}_{\mathrm{radix}}(A)+y)\bmod{\mathrm{radix}^{m}}
@@ -470,7 +470,7 @@ $$
 | CBC | 先将当前明文与前一密文 XOR 后加密的链接模式。 |
 | CFB | 使用密文反馈、按 $s$ 位处理的分组密码流模式。 |
 | OFB | 使用加密输出反馈生成独立密钥流的模式。 |
-| CTR | 加密唯一计数器并与数据 XOR 的模式。 |
+| [CTR](<../../../../../Course Notes/密码学 (Cipher)/Private-Key Encryption (VI)/Private-Key Encryption (VI).md>) | 加密唯一计数器并与数据 XOR 的模式。 |
 | IV | 用于 CBC、CFB、OFB 等模式的初始向量。 |
 | 可调整分组密码 | 接受密钥、明文和非秘密调整值的分组密码。 |
 | XTS-AES | 面向扇区存储设备、以两个 AES 密钥和调整值工作的模式。 |

@@ -24,7 +24,7 @@ updated: 2026-07-31
 
 教材给出本章六个学习目标：
 
-1. 理解流密码和分组密码之间的差异。
+1. 理解[[Course Notes/密码学 (Cipher)/Private-Key Encryption(II-III)/Private-Key Encryption(II-III)|流密码]]和分组密码之间的差异。
 2. 简要介绍 Feistel 密码，并说明解密为何是加密的逆过程。
 3. 简要介绍数据加密标准。
 4. 解释雪崩效应。
@@ -384,7 +384,7 @@ $$
 2. Diffie 和 Hellman 在 1977 年指出，若使用 100 万个加密器的并行机，每个加密器 1 ms 执行一次加密，平均穷举时间可降至约 10 小时。
 3. 后来的多核处理器和超级计算机技术使 DES 的 56 位密钥更受威胁。
 
-教材结论：增加密钥位数是防止简单穷举攻击的有效方法，128 位或以上的密钥是有效的。DES 的重要替代算法包括 AES 和 3DES。
+教材结论：增加密钥位数是防止简单穷举攻击的有效方法，128 位或以上的密钥是有效的。DES 的重要替代算法包括 [[Course Notes/密码学 (Cipher)/Practical Constructions of Symmetric-Key Primitive/Practical Constructions of Symmetric-Key Primitives (I)|AES]] 和 3DES。
 
 ![[attachments/table_4_5_exhaustive_key_search_time.png|620]]
 
@@ -416,7 +416,7 @@ Feistel 密码强度来自三个方面：
 
 迭代轮数越多，密码分析越困难，即使 $F$ 相对较弱也适用。一般来说，迭代轮数的选择标准是使密码分析难度大于简单穷举攻击难度。DES 设计使用了这个标准。
 
-教材引用 Schneier 的观察：对 16 轮 DES，差分密码分析需要 $2^{55.1}$ 次操作，而穷举攻击平均需要 $2^{55}$ 次操作；如果 DES 只有 15 轮或更少迭代，差分密码分析效率就会比穷举攻击更高。
+教材引用 Schneier 的观察：对 16 轮 DES，[[Course Notes/密码学 (Cipher)/Practical Constructions of Symmetric-Key Primitive 2bda-ee39/Practical Constructions of Symmetric-Key Primitives (II)|差分密码分析]]需要 $2^{55.1}$ 次操作，而穷举攻击平均需要 $2^{55}$ 次操作；如果 DES 只有 15 轮或更少迭代，差分密码分析效率就会比穷举攻击更高。
 
 ### 6.2 函数 F 的设计
 

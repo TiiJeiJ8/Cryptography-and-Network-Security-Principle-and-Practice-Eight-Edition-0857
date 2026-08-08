@@ -131,7 +131,7 @@ SA由$(SPI，IP目的地址，安全协议标识AH/ESP)$唯一标识。其本质
 
 #### 解答
 
-填充有三项作用：把明文扩展到分组密码要求的分组长度倍数；保证“填充长度”和“下一个头部”在32位字中右对齐且密文长度为32位整数倍；加入额外字节隐藏真实净荷长度，提供有限流量保密性。
+填充有三项作用：把明文扩展到[[Course Notes/密码学 (Cipher)/Practical Constructions of Symmetric-Key Primitive/Practical Constructions of Symmetric-Key Primitives (I)|分组密码]]要求的分组长度倍数；保证“填充长度”和“下一个头部”在32位字中右对齐且密文长度为32位整数倍；加入额外字节隐藏真实净荷长度，提供有限流量保密性。
 
 #### 依据
 
@@ -169,7 +169,7 @@ SA由$(SPI，IP目的地址，安全协议标识AH/ESP)$唯一标识。其本质
 
 #### 解答
 
-Oakley是基于Diffie-Hellman的密钥确定协议，增加抗阻塞、参数组协商、时变值和交换认证等机制，以抵抗重放、中间人及计算资源攻击；它本身不规定专用消息格式。ISAKMP提供安全关联和密钥管理的框架、消息类型、净荷格式及安全属性协商，但不限定唯一密钥交换算法。教材随后说明IKEv2已把相关功能整合，术语上不再沿用IKEv1中Oakley和ISAKMP的明确分工。
+Oakley是基于Diffie-Hellman的密钥确定协议，增加抗阻塞、参数组协商、时变值和交换认证等机制，以抵抗重放、中间人及计算资源攻击；它本身不规定专用消息格式。ISAKMP提供安全关联和[[Course Notes/密码学 (Cipher)/Key Management and the Public-Key Revolution/Key Management and the Public-Key Revolution|密钥管理]]的框架、消息类型、净荷格式及安全属性协商，但不限定唯一[[Course Notes/密码学 (Cipher)/Key Management and the Public-Key Revolution/Key Management and the Public-Key Revolution|密钥交换]]算法。教材随后说明IKEv2已把相关功能整合，术语上不再沿用IKEv1中Oakley和ISAKMP的明确分工。
 
 #### 依据
 
@@ -196,7 +196,7 @@ Oakley是基于Diffie-Hellman的密钥确定协议，增加抗阻塞、参数组
 | 2 | 本机发出的ICMP | 绕过；允许网络错误/控制消息传递 |
 | 3 | 本机到协作网$1.2.3.0/24$的任意流量 | 用ESP保护；加密内联网流量 |
 | 4 | 本机到DMZ服务器`1.2.4.10:80`的TCP | 用ESP保护；为HTTP增加IP层加密 |
-| 5 | 本机到`1.2.4.10:443`的TCP | 绕过；HTTPS已由TLS保护，策略选择避免双重加密 |
+| 5 | 本机到`1.2.4.10:443`的TCP | 绕过；HTTPS已由[TLS](<../../../../../Course Notes/Web隐私与安全（Security and Privacy of Web）/06-HTTPS与TLS/06-HTTPS与TLS.md>)保护，策略选择避免双重加密 |
 | 6 | 本机到DMZ其余地址$1.2.4.0/24$ | 丢弃；主机只获准访问指定服务器 |
 | 7 | 本机到其他任意目的 | 绕过；普通因特网流量不由该策略保护 |
 

@@ -38,7 +38,7 @@ updated: 2026-07-24
 - DES怎样把64位明文逐轮变成64位密文？
 - 32位右半部为什么先扩展到48位，又通过S盒压回32位？
 - S盒的6位输入中，哪几位选行，哪几位选列？
-- 轮函数不必可逆，为什么整个Feistel网络仍可逆？
+- 轮函数不必可逆，为什么整个[[Course Notes/密码学 (Cipher)/Practical Constructions of Symmetric-Key Primitive/Practical Constructions of Symmetric-Key Primitives (I)|Feistel网络]]仍可逆？
 - 解密为什么不需要设计另一套轮函数？
 
 ### 为什么需要本附录
@@ -180,7 +180,7 @@ $$
 
 ### S盒与P置换的教学理解
 
-S盒实现非线性代替，是DES抵抗线性分析的重要来源。P置换把每个S盒的4位输出分散到下一轮不同S盒的输入路径上，使局部变化经过多轮扩散。
+S盒实现非线性代替，是DES抵抗[[Course Notes/密码学 (Cipher)/Practical Constructions of Symmetric-Key Primitive 2bda-ee39/Practical Constructions of Symmetric-Key Primitives (II)|线性分析]]的重要来源。P置换把每个S盒的4位输出分散到下一轮不同S盒的输入路径上，使局部变化经过多轮扩散。
 
 > [!note] 内容边界
 > 上一句是用于理解教材结构的功能性解释；标准的全部8个S盒数值以只读 [[附录C_数据加密标准_教材原文#表C.2 DES S盒的定义|表C.2]] 为准。
@@ -265,8 +265,8 @@ $$
 ## 与正文的联系
 
 - [[第四章_分组密码和数据加密标准_导学讲义|第4章]]：Feistel结构、DES设计准则和安全性。
-- [[第七章_分组密码的工作模式_导学讲义|第7章]]：DES等分组密码如何用于ECB、CBC、CFB等模式。
-- [[第六章_高级加密标准_导学讲义|第6章]]：AES与DES在轮结构、分组长度和密钥长度上的差异。
+- [[第七章_分组密码的工作模式_导学讲义|第7章]]：DES等[[Course Notes/密码学 (Cipher)/Practical Constructions of Symmetric-Key Primitive/Practical Constructions of Symmetric-Key Primitives (I)|分组密码]]如何用于ECB、[[Course Notes/密码学 (Cipher)/Private-Key Encryption (VI)/Private-Key Encryption (VI)|CBC]]、CFB等模式。
+- [[第六章_高级加密标准_导学讲义|第6章]]：[[Course Notes/密码学 (Cipher)/Practical Constructions of Symmetric-Key Primitive/Practical Constructions of Symmetric-Key Primitives (I)|AES]]与DES在轮结构、分组长度和密钥长度上的差异。
 
 ## 学习建议
 

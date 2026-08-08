@@ -32,7 +32,7 @@ $$
 \longrightarrow
 A^{-1}
 \longrightarrow
-Z_n\text{上的逆矩阵}
+Z_n\text{上的[[证明_逆矩阵乘积公式|逆矩阵]]}
 \longrightarrow
 \text{Hill加解密}
 $$
@@ -84,7 +84,7 @@ $$
 > [!warning] 易错点
 > $AB$ 一般不等于 $BA$；后者甚至可能无定义。
 
-### A.1.2 行列式
+### A.1.2 [[证明_三角形行列式|行列式]]
 
 二阶：
 
