@@ -1,9 +1,3 @@
----
-tags: [cryptography, npee]
-type: index
-status: maintained
----
-
 <div align="center">
 
 # 密码编码学与网络安全
