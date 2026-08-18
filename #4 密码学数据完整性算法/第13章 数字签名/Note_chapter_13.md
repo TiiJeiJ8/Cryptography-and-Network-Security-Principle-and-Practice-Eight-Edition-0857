@@ -44,7 +44,7 @@ updated: 2026-08-17
   |     `-- ECDSA
   |
   `-- 基于 RSA
-        `-- RSA-PSS：哈希 + 盐 + MGF + RSA 运算
+     `-- RSA-PSS：哈希 + 盐 + MGF + RSA 运算
 ```
 
 ## 1. 学习目标 1：数字签名过程
