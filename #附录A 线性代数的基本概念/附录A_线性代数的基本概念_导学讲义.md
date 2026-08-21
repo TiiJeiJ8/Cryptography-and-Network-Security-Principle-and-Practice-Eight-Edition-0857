@@ -2,7 +2,7 @@
 title: "附录A 线性代数的基本概念 - 导学讲义"
 aliases:
   - "密码编码学与网络安全 附录A 导学讲义"
-tags: [linear_algebra]
+tags: [linear_algebra, matrix]
 category: textbook
 source: "密码编码学与网络安全 原理与实践 第八版"
 source_pdf: "Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf"

@@ -2,7 +2,7 @@
 title: 附录A 线性代数的基本概念 - 学习目标笔记
 aliases:
   - 密码编码学与网络安全 附录A Note
-tags: [linear_algebra, math, textbook_chapter]
+tags: [linear_algebra, matrix]
 source: 密码编码学与网络安全 原理与实践 第八版
 chapter: null
 appendix: A

@@ -2,7 +2,7 @@
 title: 附录C 数据加密标准 - 学习目标笔记
 aliases:
   - 密码编码学与网络安全 附录C Note
-tags: [des, block_cipher, symmetric_encryption, textbook_chapter]
+tags: [des, block_cipher, symmetric_encryption]
 source: 密码编码学与网络安全 原理与实践 第八版
 chapter: null
 appendix: C

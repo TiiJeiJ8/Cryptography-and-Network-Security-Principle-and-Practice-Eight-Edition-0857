@@ -2,7 +2,7 @@
 title: 附录E 生日攻击的数学基础 - 学习目标笔记
 aliases:
   - 密码编码学与网络安全 附录E Note
-tags: [hash_function, math, textbook_chapter]
+tags: [birthday_attack, collision, hash_function, probability]
 source: 密码编码学与网络安全 原理与实践 第八版
 chapter: null
 appendix: E

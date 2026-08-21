@@ -2,7 +2,7 @@
 title: 附录D 简化AES - 学习目标笔记
 aliases:
   - 密码编码学与网络安全 附录D Note
-tags: [aes, block_cipher, symmetric_encryption, finite_field, textbook_chapter]
+tags: [simplified_aes, aes, finite_field, spn]
 source: 密码编码学与网络安全 原理与实践 第八版
 chapter: null
 appendix: D

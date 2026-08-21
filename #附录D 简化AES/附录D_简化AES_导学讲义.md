@@ -2,7 +2,7 @@
 title: "附录D 简化AES - 导学讲义"
 aliases:
   - "密码编码学与网络安全 附录D 导学讲义"
-tags: [simplified_aes]
+tags: [simplified_aes, aes, finite_field, spn]
 category: textbook
 source: "密码编码学与网络安全 原理与实践 第八版"
 source_pdf: "Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf"

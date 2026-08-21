@@ -2,7 +2,7 @@
 title: "附录B 保密性和安全性度量 - 复习笔记"
 aliases:
   - "密码编码学与网络安全 附录B 复习笔记"
-tags: [information_theory]
+tags: [information_theory, perfect_secrecy, computational_security, probability]
 category: textbook
 source: "密码编码学与网络安全 原理与实践 第八版"
 source_pdf: "Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf"

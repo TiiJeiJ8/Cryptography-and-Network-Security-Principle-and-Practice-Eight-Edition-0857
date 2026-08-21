@@ -3,7 +3,7 @@ title: 第12章 消息认证码 - 学习目标笔记
 aliases:
   - 密码编码学与网络安全 第12章 Note
   - 第十二章 消息认证码 学习目标笔记
-tags: [mac, hmac, authenticated_encryption, prng, textbook_chapter]
+tags: [textbook_chapter, mac, hmac, hash_function, message_authentication]
 source: 密码编码学与网络安全 原理与实践 第八版
 chapter: 12
 section: 12.1-12.9

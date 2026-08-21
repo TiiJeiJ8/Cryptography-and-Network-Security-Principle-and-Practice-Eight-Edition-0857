@@ -2,7 +2,7 @@
 title: "第9章 公钥密码学与RSA - 导学讲义"
 aliases:
   - "密码编码学与网络安全 第9章 导学讲义"
-tags: [public_key, rsa, asymmetric_encryption, prime, number_theory, key_exchange]
+tags: [public_key, rsa, asymmetric_encryption, key_exchange, number_theory]
 category: textbook
 source: "密码编码学与网络安全 原理与实践 第八版"
 source_pdf: "Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf"
@@ -454,4 +454,3 @@ OAEP 编码步骤：
 - [[第十章_其他公钥密码体制_导学讲义]]
 - [[第十三章_数字签名_导学讲义]]
 - [[第十五章_密钥管理和分发_导学讲义]]
-

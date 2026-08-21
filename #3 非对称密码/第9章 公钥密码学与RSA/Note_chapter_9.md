@@ -3,13 +3,7 @@ title: 第 9 章 公钥密码学与RSA - 学习目标笔记
 aliases:
   - 密码编码学与网络安全 第 9 章 Note
   - 第九章 公钥密码学与RSA 学习目标笔记
-tags:
-  - course
-  - cryptography
-  - public_key
-  - rsa
-  - textbook_source
-  - note
+tags: [textbook_chapter, public_key, rsa, asymmetric_encryption, key_exchange]
 category: note
 source: 密码编码学与网络安全 原理与实践 第八版
 chapter: 9

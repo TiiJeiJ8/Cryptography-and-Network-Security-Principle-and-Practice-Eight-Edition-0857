@@ -2,7 +2,7 @@
 title: "附录E 生日攻击的数学基础 - 导学讲义"
 aliases:
   - "密码编码学与网络安全 附录E 导学讲义"
-tags: [birthday_attack]
+tags: [birthday_attack, collision, hash_function, probability]
 category: textbook
 source: "密码编码学与网络安全 原理与实践 第八版"
 source_pdf: "Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf"

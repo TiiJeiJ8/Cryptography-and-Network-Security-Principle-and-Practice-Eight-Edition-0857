@@ -3,15 +3,7 @@ title: 第 10 章 其他公钥密码体制 - 学习目标笔记
 aliases:
   - 密码编码学与网络安全 第 10 章 Note
   - 第十章 其他公钥密码体制 学习目标笔记
-tags:
-  - course
-  - cryptography
-  - public_key
-  - diffie_hellman
-  - elgamal
-  - elliptic_curve
-  - textbook_source
-  - note
+tags: [textbook_chapter, diffie_hellman, elgamal, ecc, discrete_log]
 category: note
 source: 密码编码学与网络安全 原理与实践 第八版
 chapter: 10

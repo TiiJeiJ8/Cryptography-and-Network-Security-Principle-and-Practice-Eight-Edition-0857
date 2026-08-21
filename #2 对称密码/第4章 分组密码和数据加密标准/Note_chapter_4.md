@@ -3,7 +3,7 @@ title: 第 4 章 分组密码和数据加密标准 - 学习目标笔记
 aliases:
   - 密码编码学与网络安全 第 4 章 Note
   - 第四章 分组密码和数据加密标准 学习目标笔记
-tags: [textbook_chapter, block_cipher, des, feistel, s_box, symmetric_encryption]
+tags: [textbook_chapter, block_cipher, des, feistel, s_box]
 type: note
 category: note
 source: 密码编码学与网络安全 原理与实践 第八版

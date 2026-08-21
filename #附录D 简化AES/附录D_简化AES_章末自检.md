@@ -1,3 +1,7 @@
+---
+tags: [simplified_aes, aes, finite_field, spn]
+---
+
 # 附录D 简化AES — 章末学习目标自检
 
 ---

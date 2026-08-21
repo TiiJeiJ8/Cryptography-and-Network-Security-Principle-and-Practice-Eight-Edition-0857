@@ -2,7 +2,7 @@
 title: "第9章 公钥密码学与RSA - 复习笔记"
 aliases:
   - "密码编码学与网络安全 第9章 复习笔记"
-tags: [public_key, rsa, asymmetric_encryption, prime, number_theory, key_exchange]
+tags: [public_key, rsa, asymmetric_encryption, key_exchange, number_theory]
 category: textbook
 source: "密码编码学与网络安全 原理与实践 第八版"
 source_pdf: "Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf"

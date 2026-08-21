@@ -2,7 +2,7 @@
 title: "第20章 IP安全 - 导学讲义"
 aliases:
   - "密码编码学与网络安全 第20章 导学"
-tags: [endpoint_security, firewall, intrusion_detection, malware, ddos]
+tags: [ipsec, esp, ike, vpn]
 category: textbook
 source: "密码编码学与网络安全 原理与实践 第八版"
 source_pdf: "Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf"

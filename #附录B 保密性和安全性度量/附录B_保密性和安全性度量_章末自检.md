@@ -1,3 +1,7 @@
+---
+tags: [information_theory, probability, perfect_secrecy, computational_security]
+---
+
 # 附录B 保密性和安全性度量 — 章末学习目标自检
 
 ---

@@ -2,7 +2,7 @@
 title: 附录B 保密性和安全性度量 - 学习目标笔记
 aliases:
   - 密码编码学与网络安全 附录B Note
-tags: [one_time_pad, hash_function, math, textbook_chapter]
+tags: [information_theory, perfect_secrecy, computational_security, probability]
 source: 密码编码学与网络安全 原理与实践 第八版
 chapter: null
 appendix: B

@@ -3,7 +3,7 @@ title: 第13章 数字签名 - 学习目标笔记
 aliases:
   - 密码编码学与网络安全 第13章 Note
   - 第十三章 数字签名 学习目标笔记
-tags: [digital_signature, dsa, ecc, rsa_signature, textbook_chapter]
+tags: [textbook_chapter, digital_signature, rsa_signature, dsa, schnorr]
 source: 密码编码学与网络安全 原理与实践 第八版
 chapter: 13
 section: 13.1-13.6

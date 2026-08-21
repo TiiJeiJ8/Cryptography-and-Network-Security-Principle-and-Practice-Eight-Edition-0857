@@ -2,7 +2,7 @@
 title: "附录C 数据加密标准 - 导学讲义"
 aliases:
   - "密码编码学与网络安全 附录C 导学讲义"
-tags: [des]
+tags: [des, block_cipher, symmetric_encryption]
 category: textbook
 source: "密码编码学与网络安全 原理与实践 第八版"
 source_pdf: "Reference Books/密码编码学与网络安全 原理与实践 第八版.pdf"

@@ -3,7 +3,7 @@ title: 第 11 章 密码学哈希函数 - 学习目标笔记
 aliases:
   - 密码编码学与网络安全 第 11 章 Note
   - 第十一章 密码学哈希函数 学习目标笔记
-tags: [hash_function, mac, digital_signature, sha, textbook_chapter]
+tags: [textbook_chapter, hash_function, collision_resistance, preimage_resistance, sha]
 source: 密码编码学与网络安全 原理与实践 第八版
 chapter: 11
 section: 11.1-11.5

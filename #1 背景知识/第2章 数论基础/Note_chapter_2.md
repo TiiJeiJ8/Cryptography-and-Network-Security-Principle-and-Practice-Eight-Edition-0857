@@ -3,7 +3,7 @@ title: 第 2 章 数论基础 - 学习目标笔记
 aliases:
   - 密码编码学与网络安全 第 2 章 Note
   - 第二章 数论基础 学习目标笔记
-tags: [textbook_chapter, number_theory, modular_arithmetic, prime, euclidean_algorithm, fermat_theorem, euler_theorem]
+tags: [textbook_chapter, number_theory, modular_arithmetic, euclidean_algorithm, prime]
 type: note
 category: note
 source: 密码编码学与网络安全 原理与实践 第八版

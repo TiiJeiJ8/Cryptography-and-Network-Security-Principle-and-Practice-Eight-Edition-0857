@@ -1,3 +1,7 @@
+---
+tags: [des, block_cipher, symmetric_encryption]
+---
+
 # 附录C 数据加密标准 — 章末学习目标自检
 
 ---

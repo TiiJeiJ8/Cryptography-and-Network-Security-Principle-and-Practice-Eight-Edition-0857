@@ -1,3 +1,7 @@
+---
+tags: [linear_algebra, matrix]
+---
+
 # 附录A 线性代数的基本概念 — 章末学习目标自检
 
 ---

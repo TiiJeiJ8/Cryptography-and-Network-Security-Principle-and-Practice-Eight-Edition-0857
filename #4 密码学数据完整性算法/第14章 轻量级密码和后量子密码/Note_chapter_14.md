@@ -3,7 +3,7 @@ title: 第14章 轻量级密码和后量子密码 - 学习目标笔记
 aliases:
   - 密码编码学与网络安全 第14章 Note
   - 第十四章 轻量级密码和后量子密码 学习目标笔记
-tags: [authenticated_encryption, hash_function, post_quantum, quantum, textbook_chapter]
+tags: [textbook_chapter, post_quantum, quantum, authenticated_encryption, hash_function]
 source: 密码编码学与网络安全 原理与实践 第八版
 chapter: 14
 section: 14.1-14.4

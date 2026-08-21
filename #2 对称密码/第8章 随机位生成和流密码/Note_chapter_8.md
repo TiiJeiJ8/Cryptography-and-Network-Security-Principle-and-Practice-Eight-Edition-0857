@@ -3,7 +3,7 @@ title: 第 8 章 随机位生成和流密码 - 学习目标笔记
 aliases:
   - 密码编码学与网络安全 第 8 章 Note
   - 第八章 随机位生成和流密码 学习目标笔记
-tags: [textbook_chapter, stream_cipher, random_number_generation, prng, trng, prf]
+tags: [textbook_chapter, stream_cipher, random_number_generation, prng, trng]
 type: note
 category: note
 source: 密码编码学与网络安全 原理与实践 第八版

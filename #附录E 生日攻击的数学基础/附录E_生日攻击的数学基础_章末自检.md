@@ -1,3 +1,7 @@
+---
+tags: [birthday_attack, collision, hash_function, probability]
+---
+
 # 附录E 生日攻击的数学基础 — 章末学习目标自检
 
 ---
