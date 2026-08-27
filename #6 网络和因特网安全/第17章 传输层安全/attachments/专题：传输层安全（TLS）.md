@@ -1,3 +1,21 @@
+---
+title: 传输层安全（TLS）专题
+aliases:
+  - TLS 专题
+  - Transport Layer Security
+tags: [tls, transport_security, https, authentication, key_exchange]
+type: note
+status: active
+chapter: 17
+document_type: supplementary-note
+created: 2026-08-26
+updated: 2026-08-26
+---
+
+# 传输层安全（TLS）专题
+
+> 所属章节：[[../Note_chapter_17|第 17 章 传输层安全]]
+
 # 一、TLS 在 TCP/IP 协议栈中的位置
 
 在标准的 TCP/IP 五层模型中，TLS 位于**传输层（TCP）之上、应用层之下**，属于会话层/表示层的功能范畴。
